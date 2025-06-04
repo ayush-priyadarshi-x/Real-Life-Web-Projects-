@@ -1,0 +1,46 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.searchBar {
+  width: 40vw;
+  height: 5vh;
+}
+
+.searchBar {
+  position: relative;
+}
+.cardsAnimation {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardsAnimation:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 123, 255, 0.5); /* Adjust the color to match your bg-primary */
+}
+
+.nav-link {
+  transition: all 0.1s;
+}
+.nav-link:hover {
+  transform: translateY(-4px);
+}
+/* Style for the Car & Bike Fuel Delivery Support section */
+#services img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#services h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.margin-250 {
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+.margin-bottom-250 {
+  margin-bottom: 250px;
+}
